@@ -19,7 +19,7 @@ export default function Home() {
     scope: GHL_SCOPES,
   });
 
-  const authorizationUrl = `https://marketplace.gohighlevel.com/oauth/chooselocation?response_type=code&redirect_uri=https%3A%2F%2Fcardknox.vercel.app&client_id=68495fa69d4312f7eae11260-mcl63186&scope=payments%2Forders.readonly+payments%2Forders.write+payments%2Fintegration.readonly+payments%2Fintegration.write+payments%2Ftransactions.readonly+payments%2Fsubscriptions.readonly+payments%2Fcoupons.readonly+payments%2Fcoupons.write+payments%2Fcustom-provider.readonly+payments%2Fcustom-provider.write+products.readonly+products.write+products%2Fprices.readonly+products%2Fprices.write+products%2Fcollection.readonly+products%2Fcollection.write`;
+  const authorizationUrl = `https://marketplace.gohighlevel.com/oauth/chooselocation?response_type=code&redirect_uri=https%3A%2F%2Fcardknox-pivot-7jcw.vercel.app%2Fapi%2Foauth%2Fcallback&client_id=68495fa69d4312f7eae11260-mcl63186&scope=payments%2Forders.readonly+payments%2Forders.write+payments%2Fintegration.readonly+payments%2Fintegration.write+payments%2Ftransactions.readonly+payments%2Fsubscriptions.readonly+payments%2Fcoupons.readonly+payments%2Fcoupons.write+payments%2Fcustom-provider.readonly+payments%2Fcustom-provider.write+products.readonly+products.write+products%2Fprices.readonly+products%2Fprices.write+products%2Fcollection.readonly+products%2Fcollection.write`;
 
 
   return (
